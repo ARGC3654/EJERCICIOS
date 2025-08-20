@@ -1,32 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <title>Ejercicio de selectores</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+      /* Todos los parrafos de la pagina */
+      p {
+        color: #555;
+      }
+    </style>
+    <style>
+      /* Todos los elementos de la pagina */
+      * {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
   </head>
+  <style>
+    /* Todos los enlaces la pagina */
+    a {
+      color: #c30;
+    }
+  </style>
+
   <body>
-    <div class="PARRAFO1">
-      En San Cristóbal Verapaz, datos importantes podrían incluir información sobre la cultura maya Q'eqchi', la producción de café, la riqueza natural de la región, incluyendo el Parque Nacional Laguna Lachuá, y la artesanía local. También es relevante mencionar la importancia del turismo rural comunitario y la celebración de festividades tradicionales.
+    <div id="primero">
+    <style>
+      /* Todos los párrafos contenidos en #primero */
+      #primero p {
+        color: #369;
+      }
+    </style>
+      <p>
+        <a
+          href="http://publicacionesaltaria.com/es/tienda/112-html-css-curso-practico.html"
+          >HTML &amp; CSS: Curso práctico avanzado</a
+        >
+      </p>
+
+      <p>
+        Aunque los inicios de
+        <a href="https://es.wikipedia.org/wiki/Internet">Internet</a> se
+        remontan a los años sesenta, no ha sido hasta los años noventa cuando,
+        gracias a la Web, se ha extendido su uso por todo el mundo. En pocos
+        años, la Web ha evolucionado enormemente: se ha pasado de páginas
+        sencillas, con pocas imágenes y contenidos estáticos que eran visitadas
+        por unos pocos usuarios a
+        <em
+          <style>
+      /* Los elementos <em> contenidos en #primero */
+      #primero em {
+        color: #0000bb;
+        background-color: #ffffcc;
+      }
+    </style>
+        >páginas complejas, con contenidos dinámicos que provienen de bases de
+          datos y que son visitadas por miles de usuarios al mismo tiempo</em
+        >.
+      </p>
     </div>
 
-    <div class="PARRAFO2">
-    Las festividades tradicionales son una parte esencial de la identidad cultural de San Cristóbal Verapaz.
+    <style>
+      /* Todos los elementos <span> contenidos en la clase "normal" */
+      .normal span {
+        font-weight: bold;
+      }
+    </style>
+    <div id="segundo" class="normal">
+      <p>
+        Todas las páginas están internamente construidas con la misma
+        tecnología, con el
+        <style>
+      /* Todos los elementos <em> con la clase "especial" */
+      em.especial {
+        color: #ffff00;
+        background: #000000;
+      }
+    </style>
+        <em class="especial">Lenguaje de marcas de hipertexto</em> (<span
+          >Hypertext Markup Language</span
+        >, <a href="https://es.wikipedia.org/wiki/HTML">HTML</a>) y con las
+        <em class="especial">Hojas de estilo en cascada</em> (<span
+          >Cascading Style Sheets</span
+        >, <a href="https://es.wikipedia.org/wiki/CSS">CSS</a>).
+      </p>
+
+      <p>
+        Este libro es
+        <em
+          >adecuado para cualquiera que tenga interés en aprender a desarrollar
+          sus propias páginas web</em
+        >. No son necesarios conocimientos previos para aprender con este libro,
+        lo único que es necesario es saber utilizar un ordenador y saber navegar
+        por la Web.
+      </p>
     </div>
-    <div class="PARRAFO3">
-      Guatemala, conocida como la "Tierra del Eterna Primavera", es un país rico en historia, cultura y biodiversidad. Ofrece una variedad de experiencias, desde ruinas mayas hasta volcanes activos y mercados vibrantes.
   </body>
-
-</html>
-
-
-.PARRAFO1{
-    font-family: 'Courier New', Courier, monospace;
- }
-.PARRAFO2{
-    color: write;
-}
-.PARRAFO3{
-    font-size: 50px;
-}
